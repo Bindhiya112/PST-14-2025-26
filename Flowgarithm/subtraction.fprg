@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="subtractiom"/>
+        <attribute name="authors" value="Anand V"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-01-06 03:11:39 PM"/>
+        <attribute name="created" value="QW5hbmQgVjtUSEUtREFSSy1LTklHSFQ7MjAyNi0wMS0wNjswMzowNzoyMSBQTTsyOTMy"/>
+        <attribute name="edited" value="QW5hbmQgVjtUSEUtREFSSy1LTklHSFQ7MjAyNi0wMS0wNjswMzoxMTozOSBQTTsxOzMwNDQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <declare name="b" type="Integer" array="False" size=""/>
+            <assign variable="a" expression="20"/>
+            <assign variable="b" expression="5"/>
+            <output expression="a-b" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="multiplication"/>
+        <attribute name="authors" value="Anand V"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-01-06 03:34:47 PM"/>
+        <attribute name="created" value="QW5hbmQgVjtUSEUtREFSSy1LTklHSFQ7MjAyNi0wMS0wNjswMzoxMjoxMyBQTTsyOTI5"/>
+        <attribute name="edited" value="QW5hbmQgVjtUSEUtREFSSy1LTklHSFQ7MjAyNi0wMS0wNjswMzozNDo0NyBQTTs4OzMwNTU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="r" type="Integer" array="False" size=""/>
+            <input variable="r"/>
+            <if expression="r%2==0">
+                <then>
+                    <output expression="&quot;even&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;odd&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
