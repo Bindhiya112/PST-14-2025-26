@@ -1,0 +1,8 @@
+class Main {
+    public static void main(String[] args) {
+        int Arr[]  = {10, 20, 30, 40, 50};
+        for (int i = 5 - 1; i >=0 ; i--) {
+            System.out.println(Arr[i] + ",");
+        }
+    }
+}
